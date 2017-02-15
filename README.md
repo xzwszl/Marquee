@@ -7,25 +7,34 @@ Usage
 -----
 ```xml
  <FrameLayout
-        android:layout_width="200dp"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="50dp"
-        android:layout_centerHorizontal="true"
-        android:background="@android:color/holo_green_dark">
+        android:layout_width="match_parent"
+        android:layout_height="180dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true">
 
         <com.xzl.marquee.library.MarqueeView
             android:id="@+id/marquee"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            app:text_color="@android:color/holo_red_dark"
-            app:text_size="21sp"
-            app:speed="60dp"/>
+            app:text_color="@android:color/white"
+            app:txt_spacing="15dp"
+            app:text_shadowColor="@android:color/black"
+            app:txt_dx="1.0"
+            app:txt_dy="1.0"
+            app:txt_radius="1.0"
+            app:text_size="25sp"
+            app:speed="40dp"
+            android:layout_gravity="center_vertical"/>
     </FrameLayout>
 ```
+Effect
+-----
+![Marquee](https://github.com/xzwszl/Marquee/tree/master/app/src/main/pic/demo.gif)
+
 About Me
 -----
 Email Address: xzwszl@163.com
 
-Wechat: fry_ss
+Wechat Name: 兮乐
 
 Love Android, Love Life!
