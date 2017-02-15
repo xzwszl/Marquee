@@ -29,7 +29,7 @@ Usage
 ```
 Effect
 -----
-![Marquee](https://github.com/xzwszl/Marquee/tree/master/app/src/main/pic/demo.gif)
+![](https://github.com/xzwszl/Marquee/blob/master/app/src/main/pic/demo.gif)
 
 About Me
 -----
