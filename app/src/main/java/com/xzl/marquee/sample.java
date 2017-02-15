@@ -12,12 +12,12 @@ public class sample extends AppCompatActivity {
     private MarqueeView marqueeView;
 
     @Override
-    protected void onCreate(Bundle savedInstanceState) {
+    protected void
+    onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_sample);
 
         marqueeView = (MarqueeView)findViewById(R.id.marquee);
-        marqueeView.setInterpolator(new AccelerateDecelerateInterpolator());
         marqueeView.setText("This is a demo of marquee");
 
     }
